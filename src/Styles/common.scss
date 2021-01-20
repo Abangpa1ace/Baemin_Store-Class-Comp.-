@@ -1,0 +1,41 @@
+//font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
+
+
+// Variables
+$gray0: #f6f6f6;
+$gray1: #c0c0c0;
+$gray2: #717171;
+$bm-black: #333333;
+$bm-beach: #29c1bc;
+$bm-sale: #ec2e3e;
+$bm-discount: #ff6350;
+
+$web-width: 1200px;
+
+// Extend
+%flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%flexAlign {
+  display: flex;
+  align-items: center;
+}
+
+// Mixin(Responsive)
+
+a {
+  text-decoration: none;
+}
